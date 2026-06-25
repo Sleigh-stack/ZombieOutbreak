@@ -1,0 +1,78 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="Model" referent="RBX0">
+		<Properties>
+			<Color3 name="Ambient">4281545523</Color3>
+			<string name="Name">TownMap</string>
+			<Color3 name="OutdoorAmbient">4281545523</Color3>
+			<float name="OutdoorAmbientAngle">0</float>
+		</Properties>
+		<Item class="Part" referent="RBX1">
+			<Properties>
+				<Color3 name="BrickColor">4289619240</Color3>
+				<float name="BrickColorCode">37</float>
+				<string name="Name">Ground</string>
+				<CFrame name="CFrame">
+					<X>0</X>
+					<Y>0</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+				<token name="Shape">Enum.PartType.Block</token>
+				<Vector3 name="Size">
+					<X>200</X>
+					<Y>4</Y>
+					<Z>200</Z>
+				</Vector3>
+				<token name="SurfaceColor">0</token>
+				<token name="SurfaceColorBottom">0</token>
+				<token name="SurfaceColorFront">0</token>
+				<token name="SurfaceColorLeft">0</token>
+				<token name="SurfaceColorRight">0</token>
+				<token name="SurfaceColorTop">0</token>
+			</Properties>
+		</Item>
+		<Item class="Part" referent="RBX2">
+			<Properties>
+				<Color3 name="BrickColor">4281545523</Color3>
+				<float name="BrickColorCode">1001</float>
+				<string name="Name">Platform</string>
+				<CFrame name="CFrame">
+					<X>0</X>
+					<Y>2</Y>
+					<Z>0</Z>
+					<R00>1</R00>
+					<R01>0</R01>
+					<R02>0</R02>
+					<R10>0</R10>
+					<R11>1</R11>
+					<R12>0</R12>
+					<R20>0</R20>
+					<R21>0</R21>
+					<R22>1</R22>
+				</CFrame>
+				<token name="Shape">Enum.PartType.Block</token>
+				<Vector3 name="Size">
+					<X>100</X>
+					<Y>4</Y>
+					<Z>100</Z>
+				</Vector3>
+				<token name="SurfaceColor">0</token>
+				<token name="SurfaceColorBottom">0</token>
+				<token name="SurfaceColorFront">0</token>
+				<token name="SurfaceColorLeft">0</token>
+				<token name="SurfaceColorRight">0</token>
+				<token name="SurfaceColorTop">0</token>
+			</Properties>
+		</Item>
+	</Item>
+</roblox>

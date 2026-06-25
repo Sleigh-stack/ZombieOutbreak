@@ -1,0 +1,36 @@
+{
+	"name": "ProjectOutbreak",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "src/ReplicatedStorage"
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"$path": "src/ServerScriptService"
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"$path": "src/StarterPlayer/StarterPlayerScripts"
+			}
+		},
+		"StarterGui": {
+			"$className": "StarterGui",
+			"$path": "src/StarterGui"
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"Map": {
+				"$className": "Model",
+				"$path": "src/Workspace/Map"
+			},
+			"CreatureSpawns": {
+				"$className": "Folder",
+				"$path": "src/Workspace/CreatureSpawns"
+			}
+		}
+	}
+}

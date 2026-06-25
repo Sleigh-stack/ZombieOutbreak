@@ -1,0 +1,374 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd">
+	<External>null</External>
+	<External>nil</External>
+	<Item class="ScreenGui" referent="RBX0">
+		<Properties>
+			<int name="DisplayOrder">1</int>
+			<bool name="Enabled">true</bool>
+			<token name="IgnoreGuiInset">false</token>
+			<token name="ScreenInsets">Enum.ScreenInsets.CoreUISafetyInsets</token>
+			<token name="ZIndexBehavior">Enum.ZIndexBehavior.Sibling</token>
+		</Properties>
+		<Item class="Frame" referent="RBX1">
+			<Properties>
+				<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+				<Color3 name="BackgroundColor3">4281545523</Color3>
+				<token name="BackgroundTransparency">0.5</token>
+				<Color3 name="BorderColor3">4278190080</Color3>
+				<int name="BorderSizePixel">0</int>
+				<string name="Name">MainFrame</string>
+				<UDim2 name="Position">
+					<X>0</X>
+					<Y>0</Y>
+				</UDim2>
+				<UDim2 name="Size">
+					<X>1</X>
+					<Y>1</Y>
+				</UDim2>
+			</Properties>
+			<Item class="Frame" referent="RBX2">
+				<Properties>
+					<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+					<Color3 name="BackgroundColor3">4278190080</Color3>
+					<token name="BackgroundTransparency">0.5</token>
+					<Color3 name="BorderColor3">4278190080</Color3>
+					<int name="BorderSizePixel">0</int>
+					<string name="Name">TopBar</string>
+					<UDim2 name="Position">
+						<X>0</X>
+						<Y>0</Y>
+					</UDim2>
+					<UDim2 name="Size">
+						<X>1</X>
+						<Y>0</Y>
+						<X>0</X>
+						<Y>50</Y>
+					</UDim2>
+				</Properties>
+				<Item class="TextLabel" referent="RBX3">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Left</token>
+						<string name="Name">WaveLabel</string>
+						<UDim2 name="Position">
+							<X>0</X>
+							<Y>10</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>30</Y>
+							<X>200</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">24</token>
+						<token name="TextXAlignment">Enum.TextXAlignment.Left</token>
+						<string name="Text">Wave 0</string>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX4">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Center</token>
+						<string name="Name">StateLabel</string>
+						<UDim2 name="Position">
+							<X>0.3</X>
+							<Y>10</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>30</Y>
+							<X>150</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">24</token>
+						<string name="Text">Lobby</string>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX5">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Left</token>
+						<string name="Name">CreaturesLabel</string>
+						<UDim2 name="Position">
+							<X>0.5</X>
+							<Y>10</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>30</Y>
+							<X>150</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">24</token>
+						<token name="TextXAlignment">Enum.TextXAlignment.Center</token>
+						<string name="Text">Creatures: 0</string>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX6">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Left</token>
+						<string name="Name">CoinsLabel</string>
+						<UDim2 name="Position">
+							<X>0.75</X>
+							<Y>10</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>30</Y>
+							<X>200</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">24</token>
+						<token name="TextXAlignment">Enum.TextXAlignment.Right</token>
+						<string name="Text">Coins: 0</string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Frame" referent="RBX7">
+				<Properties>
+					<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+					<Color3 name="BackgroundColor3">4278190080</Color3>
+					<token name="BackgroundTransparency">0.5</token>
+					<Color3 name="BorderColor3">4278190080</Color3>
+					<int name="BorderSizePixel">0</int>
+					<string name="Name">BottomBar</string>
+					<UDim2 name="Position">
+						<X>0</X>
+						<Y>1</Y>
+						<X>0</X>
+						<Y>-60</Y>
+					</UDim2>
+					<UDim2 name="Size">
+						<X>1</X>
+						<Y>60</Y>
+					</UDim2>
+				</Properties>
+				<Item class="Frame" referent="RBX8">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4281545523</Color3>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">1</int>
+						<string name="Name">HealthBarBg</string>
+						<UDim2 name="Position">
+							<X>0.02</X>
+							<Y>10</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>20</Y>
+							<X>200</X>
+							<Y>0</Y>
+						</UDim2>
+					</Properties>
+					<Item class="Frame" referent="RBX9">
+						<Properties>
+							<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+							<Color3 name="BackgroundColor3">4278255360</Color3>
+							<Color3 name="BorderColor3">4278190080</Color3>
+							<int name="BorderSizePixel">0</int>
+							<string name="Name">HealthBar</string>
+							<UDim2 name="Position">
+								<X>0</X>
+								<Y>0</Y>
+							</UDim2>
+							<UDim2 name="Size">
+								<X>1</X>
+								<Y>1</Y>
+							</UDim2>
+						</Properties>
+					</Item>
+				</Item>
+				<Item class="TextLabel" referent="RBX10">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Center</token>
+						<string name="Name">HealthLabel</string>
+						<UDim2 name="Position">
+							<X>0.02</X>
+							<Y>35</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>20</Y>
+							<X>200</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">16</token>
+						<string name="Text">100 / 100</string>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX11">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Center</token>
+						<string name="Name">AmmoLabel</string>
+						<UDim2 name="Position">
+							<X>0.25</X>
+							<Y>20</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>30</Y>
+							<X>120</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">22</token>
+						<string name="Text">30 / 30</string>
+					</Properties>
+				</Item>
+				<Item class="TextLabel" referent="RBX12">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">1</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<token name="HorizontalAlignment">Enum.HorizontalAlignment.Center</token>
+						<string name="Name">CountdownLabel</string>
+						<UDim2 name="Position">
+							<X>0.4</X>
+							<Y>20</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>0</X>
+							<Y>30</Y>
+							<X>100</X>
+							<Y>0</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">22</token>
+						<string name="Text"></string>
+					</Properties>
+				</Item>
+			</Item>
+			<Item class="Frame" referent="RBX13">
+				<Properties>
+					<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+					<Color3 name="BackgroundColor3">4278190080</Color3>
+					<token name="BackgroundTransparency">0.3</token>
+					<Color3 name="BorderColor3">4278190080</Color3>
+					<int name="BorderSizePixel">0</int>
+					<string name="Name">ShopFrame</string>
+					<UDim2 name="Position">
+						<X>0.3</X>
+						<Y>0.2</Y>
+					</UDim2>
+					<UDim2 name="Size">
+						<X>0</X>
+						<Y>400</Y>
+						<X>400</X>
+						<Y>0</Y>
+					</UDim2>
+					<token name="Visible">false</token>
+				</Properties>
+				<Item class="TextLabel" referent="RBX14">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">0.5</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<string name="FontFace">
+							<RelativePath>rbxasset://fonts/families/SourceSansPro.json</RelativePath>
+						</string>
+						<string name="Name">ShopTitle</string>
+						<UDim2 name="Position">
+							<X>0</X>
+							<Y>0</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>1</X>
+							<Y>40</Y>
+						</UDim2>
+						<token name="TextColor3">4294967295</token>
+						<token name="TextScaled">false</token>
+						<token name="TextSize">28</token>
+						<token name="TextXAlignment">Enum.TextXAlignment.Center</token>
+						<string name="Text">Shop (B to toggle)</string>
+					</Properties>
+				</Item>
+				<Item class="ScrollingFrame" referent="RBX15">
+					<Properties>
+						<token name="AutomaticSize">Enum.AutomaticSize.None</token>
+						<Color3 name="BackgroundColor3">4278190080</Color3>
+						<token name="BackgroundTransparency">0.8</token>
+						<Color3 name="BorderColor3">4278190080</Color3>
+						<int name="BorderSizePixel">0</int>
+						<int name="HorizontalScrollBarInset">0</int>
+						<string name="Name">CatalogList</string>
+						<UDim2 name="Position">
+							<X>0</X>
+							<Y>40</Y>
+						</UDim2>
+						<UDim2 name="Size">
+							<X>1</X>
+							<Y>360</Y>
+						</UDim2>
+						<token name="ScrollingDirection">2</token>
+						<token name="VerticalScrollBarPosition">0</token>
+					</Properties>
+				</Item>
+			</Item>
+		</Item>
+	</Item>
+</roblox>
